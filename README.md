@@ -24,6 +24,6 @@ Some screenshots
 
 ![Pizza creation](https://raw.githubusercontent.com/kerojohan/PizzeriaSymfony2/master/web/img/pizzacreation.png)
 
-![Ingredients list]https://raw.githubusercontent.com/kerojohan/PizzeriaSymfony2/master/web/img/ingredients.png)
+![Ingredients list](https://raw.githubusercontent.com/kerojohan/PizzeriaSymfony2/master/web/img/ingredients.png)
 
 
