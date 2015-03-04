@@ -1,0 +1,416 @@
+/* Website template by freewebsitetemplates.com */
+
+body {
+	background: url(../images/bg-body.gif) repeat top center;
+	color: #34441f;
+	font-family: 'JosefinSlabRegular';
+	font-size: 18px;
+	margin: 0;
+	min-width: 960px;
+	padding: 0;
+	
+}
+
+a {
+	outline: none;
+}
+
+img {
+	border: 0;
+}
+
+p a {
+	color: #34441f;
+}
+
+#header {
+	background: url(../images/menu-bar.jpg) no-repeat top center;
+}
+
+#header div {
+	height: 124px;
+	margin: 0 auto;
+	position: relative;
+	width: 950px;
+}
+
+#header div ul {
+	float: left;
+	font-size: 20px;
+	list-style: none;
+	margin: 0 0 0 250px;
+	padding: 55px 0 0;
+}
+
+#header div ul.first {
+	margin-left: 25px;
+}
+
+#header div ul.first li a {
+	padding: 0 30px;
+}
+
+#header div ul li {
+	float: left;
+    line-height: 56px; 
+}
+
+#header div ul li a {
+	color: #585858;
+	display: block;
+	padding: 0 60px;
+	text-shadow: 1px 1px 0 #e3e3e3;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+
+#header div ul li a:hover, #header div ul li.current a {
+	background: url(../images/menu-selected.jpg) repeat-x;
+	color: #fefefe;
+	text-shadow: 1px 1px 0 #4a4a4a;
+}
+
+#header div div {
+	background: none;
+	left: 358px;
+    margin: 0 auto;
+	position: absolute;
+    top: 0;
+    width: 235px;
+    z-index: 1;
+}
+
+#header span {
+	background: url(../images/featured.jpg) no-repeat center;
+	display: block;
+	height: 628px;
+	left: 0;
+	overflow: hidden;
+    position: relative;
+    top: 0;
+	z-index: -1;
+}
+
+#content {
+	height: auto;
+	margin: -50px auto 0;
+	padding: 0;
+	position: relative;
+    width: 950px;
+    z-index: 1;
+}
+
+#content h1 {
+	color: #fdfbfc;
+	font-size: 36px;
+    line-height: 28px;
+	margin: 0;
+	padding: 0 10px;
+	text-shadow: 1px 1px 0 #81ae53;
+}
+
+#content p, #content div p {
+	line-height: 27px;
+	padding: 0 10px;
+	text-align: justify;
+	text-shadow: 1px 1px 0 #c3e49f;
+}
+
+#content div {
+	margin-top: 90px;
+}
+
+#content div b {
+	display: block;
+	padding: 20px 10px 0;
+	text-shadow: 1px 1px 0 #d5f1b1;
+}
+
+#content div div {
+	height: 350px;
+    margin: 0 0 35px;
+    overflow: hidden;
+    padding: 0;
+    width: auto;
+}
+
+#content div div div {
+	border: none;
+	float: left;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	width: 535px;
+}
+
+#content div div span {
+	background: url(../images/bg-blog-image.jpg) no-repeat;
+	float: right;
+	height: 350px;
+	width: 403px;
+}
+
+#content div div span img {
+	margin: 6px;
+}
+
+#content div div div h1 a {
+	color: #FDFBFC;
+	float: none;
+    height: auto;
+	text-decoration: none;
+    text-shadow: 1px 1px 0 #81AE53;
+	width: auto;  
+}
+
+#content div div div p {
+	padding: 0 20px 0 10px;
+	text-align: left;
+}
+
+#content div div.section {
+	background: url(../images/bg-food-menu.jpg) no-repeat;
+	height: 346px;
+}
+
+#content div div.section span {
+	float: left;
+	height: auto;
+    margin: 10px;
+    width: auto;
+}
+
+#content div div.section span img {
+	border: 1px solid #a59849;
+	margin: 0;
+}
+
+#content div div.section div {
+	float: left;
+    height: auto;
+    margin: 10px 0;
+    width: 555px;
+}
+
+#content div div.section div h2 {
+	background: url(../images/separator.gif) repeat-x center bottom;
+	color: #1f1b0c;
+	font-size: 36px;
+	line-height: 28px;
+	margin: 0;
+	padding-bottom: 20px;
+	text-align: center;
+	text-shadow: 1px 1px 0 #fefad6;
+}
+
+#content div div.section ul {
+	background: url(../images/border-dashed.gif) repeat-y center top;
+	clear: both;
+	height: 242px;
+	list-style: none;
+	margin: 15px 0 10px;
+	overflow: hidden;
+	padding: 0;
+}
+
+#content div div.section ul li {
+	float: left;
+    margin-left: 45px;
+    width: 250px;
+}
+
+#content div div.section ul li.first {
+	margin-left: 10px;
+}
+
+#content div div.section ul li table {
+	color: #88773d;
+	font-size: 16px;
+	line-height: 20px;
+	margin: 0;
+	text-shadow: none;
+}
+
+#content div div.section ul li table tr td span {
+	background: none;
+	color: #584711;
+	float: none;
+	font-weight: bold;
+	font-style: italic;
+	padding-left: 15px;
+}
+
+#footer {
+	background: url(../images/bg-footer-tall.jpg) repeat-x center top;
+	margin-top: 50px;
+	width: 100%;
+}
+
+#footer div {
+	background: url(../images/bg-footer-top-shadow.jpg) no-repeat top center;
+	margin: 0 auto;
+	padding-top: 56px;
+	padding-bottom: 20px;
+	width: 960px;
+}
+
+#footer div ul {
+	list-style: none;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+}
+
+#footer div ul li {
+	float: left;
+	height: 327px;
+	width: 320px;
+}
+
+#footer div ul li#pasta {
+	background: url(../images/bg-pasta.jpg) no-repeat;
+}
+
+#footer div ul li#pizza {
+	background: url(../images/bg-pizza.jpg) no-repeat;
+}
+
+#footer div ul li#callus {
+	background: url(../images/bg-contact.jpg) no-repeat;
+}
+
+
+#footer div ul li div {
+	background: none;
+	height: 200px;
+	padding: 0;
+	width: 249px;
+}
+
+#footer div ul li#pasta div {
+	margin: 0 0 0 16px;	
+}
+
+#footer div ul li#pizza div {
+	margin: 0 0 0 25px;	
+}
+
+#footer div ul li#callus div {
+	margin: 0 0 0 30px;	
+}
+
+#footer div ul li div span {
+	background: url(../images/bg-heading.jpg) no-repeat;
+	color: #2f9a18;
+	display: block;
+	font-size: 24px;
+	font-weight: bold;
+	height: 31px;
+	margin-top: 10px;
+	text-align: center;
+}
+
+#footer div ul li div p, #footer div ul li div p span {
+	color: #9c9c9b;
+	font-size: 16px;
+}
+
+ #footer div ul li div p span  {
+	background: none;
+	font-weight: normal;
+    height: auto;
+    line-height: 15px;
+    margin: 0;
+    text-align: left;
+}
+
+#footer div ul li div a.more {
+	color: #9c9c9b;
+	display: block;
+}
+
+#footer div ul li div strong {
+	font-size: 18px;
+}
+
+#footer div ul li div b {
+	color: #EE4959;
+	font-weight: normal;
+    display: block;
+    font-size: 36px;
+    text-align: center;
+}
+
+#footer div.section {
+	background: url(../images/bg-footnote.gif) repeat top center;
+	padding: 33px 0 0;
+	overflow: hidden;
+	width: 100%;
+}
+
+#footer div.section div {
+	background: none;
+	margin: 0 auto;
+	overflow: hidden;
+    padding: 0 0 50px;
+    width: 950px;
+}
+
+#footer div.section div p {
+	color: #809b58;
+	float: left;
+	font-family: Trebuchet MS;
+	font-size: 10px;
+	margin: 15px 0 0;
+	width: 300px;
+}
+
+#footer div.section div div {
+	color: #809d5d;
+	float: right;
+	font-size: 16px;
+	padding: 10px 0 0;
+	text-shadow: 1px 1px 0 #182c09;
+	width: 280px;
+}
+
+#footer div.section div div span {
+	float: left;
+    line-height: 15px;
+}
+
+#footer div.section div div div {
+	margin: -7px 0 0 25px;
+    padding: 0;
+	width: auto;
+}
+
+#footer div.section div div div a {
+	display: inline-block;
+	height: 40px;
+    padding: 0 5px;
+	width: 48px;
+}
+
+#footer div.section div div div a.facebook {
+	background: url(../images/icon.gif) no-repeat center 3px;
+}
+
+#footer div.section div div div a.linked-in {
+	background: url(../images/icon.gif) no-repeat center -50px;
+}
+
+#footer div.section div div div a.twitter {
+	background: url(../images/icon.gif) no-repeat center -100px;
+}
+
+@font-face {
+    font-family: 'JosefinSlabRegular';
+    src: url('../fonts/josefinslab-regular-webfont.eot');
+    src: url('../fonts/josefinslab-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/josefinslab-regular-webfont.woff') format('woff'),
+         url('../fonts/josefinslab-regular-webfont.ttf') format('truetype'),
+         url('../fonts/josefinslab-regular-webfont.svg#JosefinSlabRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

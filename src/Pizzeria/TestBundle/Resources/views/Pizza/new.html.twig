@@ -1,0 +1,13 @@
+{% extends 'PizzeriaTestBundle::layout.html.twig' %}
+{% block titledins  %}Pizza creation{% endblock %}
+{% block dins -%}
+    {{ form(form) }}
+
+        <ul class="record_actions">
+    <li>
+        <a href="{{ path('pizza') }}">
+            Back to the list
+        </a>
+    </li>
+</ul>
+{% endblock %}

@@ -1,0 +1,4 @@
+pizzeria_test_pizza:
+    resource: "@PizzeriaTestBundle/Resources/config/routing/pizza.yml"
+    prefix:   /
+

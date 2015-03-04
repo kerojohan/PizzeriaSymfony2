@@ -1,0 +1,26 @@
+{% extends 'PizzeriaTestBundle::layout.html.twig' %}
+{% block titledins  %}Ingredients{% endblock %}
+{% block dins -%}
+
+
+    <table class="records_list">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>              
+                <th>Cost</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for entity in entities %}
+                <tr>
+                    <td><a href="{{ path('pizza_show', { 'id': entity.id }) }}">{{ entity.id }}</a></td>
+                    <td>{{ entity.name }}</td>
+
+                    <td>{{ entity.cost }}€</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+{% endblock %}

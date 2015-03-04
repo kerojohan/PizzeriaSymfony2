@@ -1,0 +1,130 @@
+<?php
+
+namespace Exoclick\TestBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * Ingredient
+ *
+ * @ORM\Table()
+ * @ORM\Entity(repositoryClass="Exoclick\TestBundle\Entity\IngredientRepository")
+ */
+class Ingredient {
+
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="id", type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="AUTO")
+     */
+    private $id;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="name", type="string", length=255)
+     */
+    private $name;
+
+    /**
+     * @var float
+     *
+     * @ORM\Column(name="cost", type="float")
+     */
+    private $cost;
+
+    /**
+     * Get id
+     *
+     * @return integer 
+     */
+    public function getId() {
+        return $this->id;
+    }
+
+    /**
+     * Set name
+     *
+     * @param string $name
+     * @return Ingredient
+     */
+    public function setName($name) {
+        $this->name = $name;
+
+        return $this;
+    }
+
+    /**
+     * Get name
+     *
+     * @return string 
+     */
+    public function getName() {
+        return $this->name;
+    }
+
+    /**
+     * Set cost
+     *
+     * @param float $cost
+     * @return Ingredient
+     */
+    public function setCost($cost) {
+        $this->cost = $cost;
+
+        return $this;
+    }
+
+    /**
+     * Get cost
+     *
+     * @return float 
+     */
+    public function getCost() {
+        return $this->cost;
+    }
+
+    /**
+     * Constructor
+     */
+    public function __construct()
+    {
+        $this->pizza = new \Doctrine\Common\Collections\ArrayCollection();
+    }
+
+    /**
+     * Add pizza
+     *
+     * @param \Exoclick\TestBundle\Entity\Pizza $pizza
+     * @return Ingredient
+     */
+    public function addPizza(\Exoclick\TestBundle\Entity\Pizza $pizza)
+    {
+        $this->pizza[] = $pizza;
+
+        return $this;
+    }
+
+    /**
+     * Remove pizza
+     *
+     * @param \Exoclick\TestBundle\Entity\Pizza $pizza
+     */
+    public function removePizza(\Exoclick\TestBundle\Entity\Pizza $pizza)
+    {
+        $this->pizza->removeElement($pizza);
+    }
+
+    /**
+     * Get pizza
+     *
+     * @return \Doctrine\Common\Collections\Collection 
+     */
+    public function getPizza()
+    {
+        return $this->pizza;
+    }
+}

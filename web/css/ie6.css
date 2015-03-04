@@ -1,0 +1,13 @@
+/* Website template by freewebsitetemplates.com */
+
+#header div ul.first {
+	margin-left: 15px;
+}
+
+#content div div.section ul li.first {
+	margin-left: 5px;
+}
+
+#footer div ul li div b {
+	font-size: 34px;
+}

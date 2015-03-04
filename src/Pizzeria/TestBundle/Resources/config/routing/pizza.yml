@@ -1,0 +1,34 @@
+pizza:
+    path:     /
+    defaults: { _controller: "PizzeriaTestBundle:Pizza:index" }
+
+pizza_show:
+    path:     /{id}/show
+    defaults: { _controller: "PizzeriaTestBundle:Pizza:show" }
+
+pizza_new:
+    path:     /new
+    defaults: { _controller: "PizzeriaTestBundle:Pizza:new" }
+    
+ingredients_show:
+    path:     /ingredients
+    defaults: { _controller: "PizzeriaTestBundle:Pizza:Ingredients" }
+
+pizza_create:
+    path:     /create
+    defaults: { _controller: "PizzeriaTestBundle:Pizza:create" }
+    methods:  POST
+
+pizza_edit:
+    path:     /{id}/edit
+    defaults: { _controller: "PizzeriaTestBundle:Pizza:edit" }
+
+pizza_update:
+    path:     /{id}/update
+    defaults: { _controller: "PizzeriaTestBundle:Pizza:update" }
+    methods:  [POST, PUT]
+
+pizza_delete:
+    path:     /{id}/delete
+    defaults: { _controller: "PizzeriaTestBundle:Pizza:delete" }
+    methods:  [POST, DELETE]
