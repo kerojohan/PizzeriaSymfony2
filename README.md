@@ -9,7 +9,7 @@ With a list of ingredients
 ■ mozzarella cheese ­ 0.5 eur 
 ■ oregano 1 eur 
 you can make an put a name at your own pizza!
-The total price will be the total price of all chosed ingredients plus 50%, really cheap!
+The total price will be the total price of all choced ingredients plus 50%, really cheap!
 
 Enjoy it.
 first steps:
